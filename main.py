@@ -9,10 +9,10 @@ if __name__ == '__main__':
     if current_task is None:
         raise ValueError("Current task not found. Please run this script within a valid task context.")
 
-    if current_task.input.get('payload') is None:
+    if current_task.info.input.get('payload') is None:
         raise ValueError("Payload is missing in the current task input.")
 
-    if current_task.input.get('payload').get('parameters') is None:
+    if current_task.info.input.get('payload').get('parameters') is None:
         raise ValueError("Parameters are missing in the current task input payload.")
 
     parameters = current_task.info.input['payload']['parameters']
