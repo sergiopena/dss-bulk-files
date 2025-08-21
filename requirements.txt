@@ -1,6 +1,4 @@
 requests==2.32.3
-pyarrow==20.0.0
 boto3==1.38.5
-numpy==2.0.2
-pandas==2.2.3
-sws_api_client
+httpx==0.28.1
+sws_api_client==1.5.12
