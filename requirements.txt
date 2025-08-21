@@ -2,3 +2,4 @@ requests==2.32.3
 boto3==1.38.5
 httpx==0.28.1
 sws_api_client==1.5.12
+pyarrow==20.0.0
